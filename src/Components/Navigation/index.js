@@ -4,24 +4,22 @@ import * as ROUTES from './../../Constants/routes';
 
 const Navigation=()=>{
     return(
-        <div>
-            <ul>
-                <li>
-                    <NavLink to={ROUTES.SIGN_IN}>Sign In</NavLink>
-                </li>
-                <li>
-                    <NavLink to={ROUTES.HOME}>Home</NavLink>
-                </li>
-                <li>
-                    <NavLink to={ROUTES.LANDING}>Landing</NavLink>
-                </li>
-                <li>
-                    <NavLink to={ROUTES.ACCOUNT}>Account</NavLink>
-                </li>
-                <li>
-                    <NavLink to={ROUTES.ADMIN}>Admin</NavLink>
-                </li>
-            </ul>
+        <div style={{display: 'flex',backgroundColor:'rgb(255,255,255,0.8)'}}>
+                <div>
+                    <NavLink style={{margin:'10px',textDecoration: 'none',color:'black'}} to={ROUTES.SIGN_IN}>Sign In</NavLink>
+                </div>
+                <div>
+                    <NavLink style={{margin:'10px',textDecoration: 'none',color:'black'}} to={ROUTES.HOME}>Home</NavLink>
+                </div>
+                <div>
+                    <NavLink style={{margin:'10px',textDecoration: 'none',color:'black'}} to={ROUTES.LANDING}>Landing</NavLink>
+                </div>
+                <div>
+                    <NavLink style={{margin:'10px',textDecoration: 'none',color:'black'}} to={ROUTES.ACCOUNT}>Account</NavLink>
+                </div>
+                <div>
+                    <NavLink style={{margin:'10px',textDecoration: 'none',color:'black'}} to={ROUTES.ADMIN}>Admin</NavLink>
+                </div>
         </div>
     );
 }
