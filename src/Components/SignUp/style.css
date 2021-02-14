@@ -1,0 +1,27 @@
+.form_label{
+    margin: 10px;
+}
+.signup_btn{
+    background-color:white;
+    color:black;
+    margin:5px;
+    padding:5px;
+    text-align:center;
+}
+.signup{
+    border: 2px solid black;
+    width: 400px;
+    height: 450px;
+    background-color:rgb(31, 27, 75);
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size:26px;
+}
+label{
+    color:white;
+    display:block;
+}
+input{
+    padding:6px;
+    width:210px;
+}
